@@ -1,0 +1,8 @@
+D:\Exam\MyExam\MyExam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.csproj.CoreCompileInputs.cache
+D:\Exam\MyExam\MyExam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.AssemblyInfoInputs.cache
+D:\Exam\MyExam\MyExam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.AssemblyInfo.cs
+D:\Exam\MyExam\MyExam\MyExam.Common\bin\Debug\netcoreapp2.0\MyExam.Common.deps.json
+D:\Exam\MyExam\MyExam\MyExam.Common\bin\Debug\netcoreapp2.0\MyExam.Common.dll
+D:\Exam\MyExam\MyExam\MyExam.Common\bin\Debug\netcoreapp2.0\MyExam.Common.pdb
+D:\Exam\MyExam\MyExam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.dll
+D:\Exam\MyExam\MyExam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.pdb

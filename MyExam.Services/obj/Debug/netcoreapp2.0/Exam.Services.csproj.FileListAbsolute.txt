@@ -1,0 +1,11 @@
+D:\Exam\MyExam\MyExam\Exam.Services\bin\Debug\netcoreapp2.0\Exam.Services.deps.json
+D:\Exam\MyExam\MyExam\Exam.Services\bin\Debug\netcoreapp2.0\Exam.Services.dll
+D:\Exam\MyExam\MyExam\Exam.Services\obj\Debug\netcoreapp2.0\Exam.Services.csprojResolveAssemblyReference.cache
+D:\Exam\MyExam\MyExam\Exam.Services\obj\Debug\netcoreapp2.0\Exam.Services.csproj.CoreCompileInputs.cache
+D:\Exam\MyExam\MyExam\Exam.Services\obj\Debug\netcoreapp2.0\Exam.Services.AssemblyInfoInputs.cache
+D:\Exam\MyExam\MyExam\Exam.Services\obj\Debug\netcoreapp2.0\Exam.Services.AssemblyInfo.cs
+D:\Exam\MyExam\MyExam\Exam.Services\bin\Debug\netcoreapp2.0\Exam.Services.pdb
+D:\Exam\MyExam\MyExam\Exam.Services\bin\Debug\netcoreapp2.0\MyExam.IServices.dll
+D:\Exam\MyExam\MyExam\Exam.Services\bin\Debug\netcoreapp2.0\MyExam.IServices.pdb
+D:\Exam\MyExam\MyExam\Exam.Services\obj\Debug\netcoreapp2.0\Exam.Services.dll
+D:\Exam\MyExam\MyExam\Exam.Services\obj\Debug\netcoreapp2.0\Exam.Services.pdb
