@@ -7,3 +7,11 @@ D:\Exam\MyExam\MyExam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.AssemblyInfo
 D:\Exam\MyExam\MyExam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.dll
 D:\Exam\MyExam\MyExam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.pdb
 D:\Exam\MyExam\MyExam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.csprojResolveAssemblyReference.cache
+D:\netproject\Exam\MyExam.DTO\bin\Debug\netcoreapp2.0\MyExam.DTO.deps.json
+D:\netproject\Exam\MyExam.DTO\bin\Debug\netcoreapp2.0\MyExam.DTO.dll
+D:\netproject\Exam\MyExam.DTO\bin\Debug\netcoreapp2.0\MyExam.DTO.pdb
+D:\netproject\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.csproj.CoreCompileInputs.cache
+D:\netproject\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.AssemblyInfoInputs.cache
+D:\netproject\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.AssemblyInfo.cs
+D:\netproject\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.dll
+D:\netproject\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.pdb

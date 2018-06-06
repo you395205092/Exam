@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Exam\\MyExam\\MyExam\\MyExam.Common\\MyExam.Common.csproj",
+      "projectUniqueName": "D:\\netproject\\Exam\\MyExam.Common\\MyExam.Common.csproj",
       "projectName": "MyExam.Common",
-      "projectPath": "D:\\Exam\\MyExam\\MyExam\\MyExam.Common\\MyExam.Common.csproj",
+      "projectPath": "D:\\netproject\\Exam\\MyExam.Common\\MyExam.Common.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Exam\\MyExam\\MyExam\\MyExam.Common\\obj\\",
+      "outputPath": "D:\\netproject\\Exam\\MyExam.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

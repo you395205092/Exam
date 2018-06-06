@@ -4206,11 +4206,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Exam\\MyExam\\MyExam\\MyExam.Services\\MyExam.Services.csproj",
+      "projectUniqueName": "D:\\netproject\\Exam\\MyExam.Services\\MyExam.Services.csproj",
       "projectName": "MyExam.Services",
-      "projectPath": "D:\\Exam\\MyExam\\MyExam\\MyExam.Services\\MyExam.Services.csproj",
+      "projectPath": "D:\\netproject\\Exam\\MyExam.Services\\MyExam.Services.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Exam\\MyExam\\MyExam\\MyExam.Services\\obj\\",
+      "outputPath": "D:\\netproject\\Exam\\MyExam.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4229,14 +4229,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Exam\\MyExam\\MyExam\\MyExam.IServices\\MyExam.IServices.csproj": {
-              "projectPath": "D:\\Exam\\MyExam\\MyExam\\MyExam.IServices\\MyExam.IServices.csproj"
+            "D:\\netproject\\Exam\\MyExam.IServices\\MyExam.IServices.csproj": {
+              "projectPath": "D:\\netproject\\Exam\\MyExam.IServices\\MyExam.IServices.csproj"
             },
-            "D:\\Exam\\MyExam\\MyExam\\MyExam.Common\\MyExam.Common.csproj": {
-              "projectPath": "D:\\Exam\\MyExam\\MyExam\\MyExam.Common\\MyExam.Common.csproj"
+            "D:\\netproject\\Exam\\MyExam.Common\\MyExam.Common.csproj": {
+              "projectPath": "D:\\netproject\\Exam\\MyExam.Common\\MyExam.Common.csproj"
             },
-            "D:\\Exam\\MyExam\\MyExam\\MyExam.DTO\\MyExam.DTO.csproj": {
-              "projectPath": "D:\\Exam\\MyExam\\MyExam\\MyExam.DTO\\MyExam.DTO.csproj"
+            "D:\\netproject\\Exam\\MyExam.DTO\\MyExam.DTO.csproj": {
+              "projectPath": "D:\\netproject\\Exam\\MyExam.DTO\\MyExam.DTO.csproj"
             }
           }
         }

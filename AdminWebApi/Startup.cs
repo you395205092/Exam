@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using AdminWebApi.Filters;
+using AdminWebApi.Others;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -25,7 +27,21 @@ namespace AdminWebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            ///session  
+            services.AddSession();
+
+
+            services.AddSingleton(typeof(ExceptionFilter));
+            services.AddSingleton(typeof(AuthorizationFilter));
+
+
+            services.AddMvc(opt =>
+            {
+                opt.Conventions.Insert(0, new NameSpaceVersionRoutingConvention());
+                opt.Filters.Add(typeof(ExceptionFilter));
+                opt.Filters.Add(typeof(ActionFilter));
+                opt.Filters.Add(typeof(AuthorizationFilter));
+            });
 
             //注册服务和实现类
             Assembly asmServices = Assembly.Load("MyExam.Services");
@@ -50,16 +66,18 @@ namespace AdminWebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseMvc();
+            //app.UseMvc(routes =>
+            //{
+            //    //扩展路由
 
-            app.UseMvc(routes =>
-            {
-                //扩展路由
-
-                routes.MapRoute(
-                    name: "default",
-                    template: "api/{controller}/{action}/{id?}",
-                    defaults: new { controller = "User", action = "you" });
-            });
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "api/v1/{controller}/{action}/{id?}",
+            //        defaults: new { controller = "User", action = "you" });
+            //});
+            //session b必须
+            app.UseSession();
         }
     }
 }

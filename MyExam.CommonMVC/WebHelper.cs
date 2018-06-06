@@ -5,6 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using System;
 using System.Net;
+using System.Text;
+
 
 namespace MyExam.CommonMVC
 {
@@ -38,6 +40,24 @@ namespace MyExam.CommonMVC
             }
             jsonResult.StatusCode = httpStatusCode;
             return jsonResult;
+        }
+
+        /// <summary>
+        /// 获取模型验证的错误信息
+        /// </summary>
+        /// <param name="modelState">ModelStateDictionary对象</param>
+        /// <returns>错误信息</returns>
+        public static string GetValidMsg(ModelStateDictionary modelState)
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (var ms in modelState.Values)
+            {
+                foreach (var modelError in ms.Errors)
+                {
+                    sb.AppendLine(modelError.ErrorMessage);
+                }
+            }
+            return sb.ToString();
         }
     }
 }

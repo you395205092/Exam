@@ -4,15 +4,16 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using AdminWebApi.Models;
+using AdminWebApi.Others;
 using Microsoft.AspNetCore.Mvc;
+using MyExam.CommonMVC;
 using MyExam.DTO;
 using MyExam.IServices;
 using static MyExam.CommonMVC.WebHelper;
 
-namespace AdminWebApi.Controllers
+namespace AdminWebApi.Controllers.v1
 {
-
-    [Route("api/[controller]")]
+    [Produces("application/json")]
     public class UserController : Controller
     {
         /// <summary>
@@ -26,10 +27,14 @@ namespace AdminWebApi.Controllers
             _adminUserService = adminUserService;
         }
 
+        [AcceptVerbs(HttpMethodType.Get, Route = "v1/User/" + nameof(you))]
+       // [CheckPermissions("AdminUser.List,AdminUser.Edit")]
         public IActionResult you()
         {
-            return ApiResult("12333", "登陆成功。", (int)HttpStatusCode.OK);
+            return ApiResult(message: "用户名或密码错误，请重新登录！", httpStatusCode: (int)HttpStatusCode.Forbidden);
         }
+        [AcceptVerbs(HttpMethodType.Get, Route = "v1/User/" + nameof(Login))]
+        #region 登录验证
         public IActionResult Login([FromForm]LoginModel model)
         {
             AdminUserDTO adminUser = _adminUserService.GetByUserName(model.UserName);
@@ -74,5 +79,8 @@ namespace AdminWebApi.Controllers
                 return ApiResult(message: "用户名或密码错误，请重新登录！", httpStatusCode: (int)HttpStatusCode.Unauthorized);
             }
         }
+        #endregion
+
+
     }
 }
