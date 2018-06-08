@@ -1,4 +1,9 @@
-﻿using System;
+﻿using JWT;
+using JWT.Algorithms;
+using JWT.Serializers;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
@@ -89,5 +94,79 @@ namespace MyExam.Common
             }
             return sb.ToString();
         }
+
+        /// <summary>
+        ///  JWT加密
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        public static string JWTEnCode(string str)
+        {
+
+            var payload = DeserializeStringToDictionary<string,object>(str);
+            
+
+            var secret = "GQDstcKsx0NHjPOuXOYg5MbeJ1XT0uFiwDVvVBrk";//不要泄露
+            IJwtAlgorithm algorithm = new HMACSHA256Algorithm();
+            IJsonSerializer serializer = new JsonNetSerializer();
+            IBase64UrlEncoder urlEncoder = new JwtBase64UrlEncoder();
+            IJwtEncoder encoder = new JwtEncoder(algorithm, serializer, urlEncoder);
+            var token = encoder.Encode(payload, secret);
+            return token;
+            
+        }
+        /// <summary>
+        /// JWT解密
+        /// </summary>
+        /// <param name="token"></param>
+        /// <returns></returns>
+
+        public static string JWTDeCode(string token)
+        {
+            var secret = "GQDstcKsx0NHjPOuXOYg5MbeJ1XT0uFiwDVvVBrk";//不要泄露
+            try
+            {
+                IJsonSerializer serializer = new JsonNetSerializer();
+                IDateTimeProvider provider = new UtcDateTimeProvider();
+                IJwtValidator validator = new JwtValidator(serializer, provider);
+                IBase64UrlEncoder urlEncoder = new JwtBase64UrlEncoder();
+                IJwtDecoder decoder = new JwtDecoder(serializer, validator, urlEncoder);
+                var json = decoder.Decode(token, secret, verify: true);
+                return json;
+            }
+            catch (TokenExpiredException)
+            {
+                throw new Exception("Token has expired");
+            }
+            catch (SignatureVerificationException)
+            {
+                throw new Exception("Token has invalid signature");
+            }
+        }
+
+
+
+        /// <summary>
+        /// 将json字符串反序列化为字典类型
+        /// </summary>
+        /// <typeparam name="TKey">字典key</typeparam>
+        /// <typeparam name="TValue">字典value</typeparam>
+        /// <param name="jsonStr">json字符串</param>
+        /// <returns>字典数据</returns>
+        public static Dictionary<TKey, TValue> DeserializeStringToDictionary<TKey, TValue>(string jsonStr)
+        {
+            if (string.IsNullOrEmpty(jsonStr))
+                return new Dictionary<TKey, TValue>();
+
+            Dictionary<TKey, TValue> jsonDict = JsonConvert.DeserializeObject<Dictionary<TKey, TValue>>(jsonStr);
+
+            return jsonDict;
+
+        }
+
+
+
+
+
     }
 }

@@ -10,6 +10,8 @@ using MyExam.CommonMVC;
 using MyExam.DTO;
 using MyExam.IServices;
 using static MyExam.CommonMVC.WebHelper;
+using static MyExam.Common.CommonHelper;
+using Exceptionless.Json;
 
 namespace AdminWebApi.Controllers.v1
 {
@@ -31,9 +33,26 @@ namespace AdminWebApi.Controllers.v1
        // [CheckPermissions("AdminUser.List,AdminUser.Edit")]
         public IActionResult you()
         {
+            _adminUserService.AddUser("admin", "123456");
             return ApiResult(message: "用户名或密码错误，请重新登录！", httpStatusCode: (int)HttpStatusCode.Forbidden);
         }
-        [AcceptVerbs(HttpMethodType.Get, Route = "v1/User/" + nameof(Login))]
+
+
+
+        [AcceptVerbs(HttpMethodType.Get, Route = "v1/User/" + nameof(LoginState))]
+        // [CheckPermissions("AdminUser.List,AdminUser.Edit")]
+        public IActionResult LoginState()
+        {
+            //_adminUserService.AddUser("admin", "123456");
+            var str = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVc2VyTmFtZSI6ImFkbWluIiwiTG9naW5FcnJvclRpbWVzIjowLCJMYXN0TG9naW5FcnJvckRhdGVUaW1lIjpudWxsLCJJZCI6MSwiQ3JlYXRlRGF0ZVRpbWUiOiIyMDE4LTA2LTA4VDEwOjQxOjUxLjAzNDA2MTIifQ.TsDQCXJSBa_2_oUCBxeqCd1tq7I0162Dg1B1DXP7HbA";
+            var data= JWTDeCode(str);
+            
+            return ApiResult(message: data, httpStatusCode: (int)HttpStatusCode.Forbidden);
+        }
+
+
+
+        [AcceptVerbs(HttpMethodType.Post, Route = "v1/User/" + nameof(Login))]
         #region 登录验证
         public IActionResult Login([FromForm]LoginModel model)
         {
@@ -62,7 +81,8 @@ namespace AdminWebApi.Controllers.v1
                 }
                 //将数据提交至redis
                 //await StringSetAsync(RedisKeyPrefix.AdminUserId + adminUser.Id, JsonConvert.SerializeObject(adminUser));
-                return ApiResult(adminUser.Id, "登陆成功。", (int)HttpStatusCode.OK);
+                var data = JWTEnCode(JsonConvert.SerializeObject(adminUser));
+                return ApiResult(data, "登陆成功。", (int)HttpStatusCode.OK);
             }
             else
             {

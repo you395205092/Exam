@@ -14,3 +14,11 @@ D:\netproject\Exam\MyExam.CommonMVC\obj\Debug\netcoreapp2.0\MyExam.CommonMVC.Ass
 D:\netproject\Exam\MyExam.CommonMVC\obj\Debug\netcoreapp2.0\MyExam.CommonMVC.AssemblyInfo.cs
 D:\netproject\Exam\MyExam.CommonMVC\obj\Debug\netcoreapp2.0\MyExam.CommonMVC.dll
 D:\netproject\Exam\MyExam.CommonMVC\obj\Debug\netcoreapp2.0\MyExam.CommonMVC.pdb
+D:\治有项目\开发项目\Exam\MyExam.CommonMVC\bin\Debug\netcoreapp2.0\MyExam.CommonMVC.deps.json
+D:\治有项目\开发项目\Exam\MyExam.CommonMVC\bin\Debug\netcoreapp2.0\MyExam.CommonMVC.dll
+D:\治有项目\开发项目\Exam\MyExam.CommonMVC\bin\Debug\netcoreapp2.0\MyExam.CommonMVC.pdb
+D:\治有项目\开发项目\Exam\MyExam.CommonMVC\obj\Debug\netcoreapp2.0\MyExam.CommonMVC.csproj.CoreCompileInputs.cache
+D:\治有项目\开发项目\Exam\MyExam.CommonMVC\obj\Debug\netcoreapp2.0\MyExam.CommonMVC.AssemblyInfoInputs.cache
+D:\治有项目\开发项目\Exam\MyExam.CommonMVC\obj\Debug\netcoreapp2.0\MyExam.CommonMVC.AssemblyInfo.cs
+D:\治有项目\开发项目\Exam\MyExam.CommonMVC\obj\Debug\netcoreapp2.0\MyExam.CommonMVC.dll
+D:\治有项目\开发项目\Exam\MyExam.CommonMVC\obj\Debug\netcoreapp2.0\MyExam.CommonMVC.pdb

@@ -680,26 +680,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\you\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "D:\\netproject\\Exam\\MyExam.IServices\\MyExam.IServices.csproj",
+      "projectUniqueName": "D:\\治有项目\\开发项目\\Exam\\MyExam.IServices\\MyExam.IServices.csproj",
       "projectName": "MyExam.IServices",
-      "projectPath": "D:\\netproject\\Exam\\MyExam.IServices\\MyExam.IServices.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\netproject\\Exam\\MyExam.IServices\\obj\\",
+      "projectPath": "D:\\治有项目\\开发项目\\Exam\\MyExam.IServices\\MyExam.IServices.csproj",
+      "packagesPath": "C:\\Users\\you\\.nuget\\packages\\",
+      "outputPath": "D:\\治有项目\\开发项目\\Exam\\MyExam.IServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\you\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -707,13 +704,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://nuget.cnblogs.com/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\netproject\\Exam\\MyExam.DTO\\MyExam.DTO.csproj": {
-              "projectPath": "D:\\netproject\\Exam\\MyExam.DTO\\MyExam.DTO.csproj"
+            "D:\\治有项目\\开发项目\\Exam\\MyExam.DTO\\MyExam.DTO.csproj": {
+              "projectPath": "D:\\治有项目\\开发项目\\Exam\\MyExam.DTO\\MyExam.DTO.csproj"
             }
           }
         }

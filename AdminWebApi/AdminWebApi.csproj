@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyExam.CommonMVC\MyExam.CommonMVC.csproj" />
+    <ProjectReference Include="..\MyExam.Common\MyExam.Common.csproj" />
     <ProjectReference Include="..\MyExam.DTO\MyExam.DTO.csproj" />
     <ProjectReference Include="..\MyExam.IServices\MyExam.IServices.csproj" />
     <ProjectReference Include="..\MyExam.Services\MyExam.Services.csproj" />
