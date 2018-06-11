@@ -680,23 +680,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\you\\.nuget\\packages\\": {},
+    "C:\\Users\\czy\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\治有项目\\开发项目\\Exam\\MyExam.IServices\\MyExam.IServices.csproj",
+      "projectUniqueName": "D:\\MyProject\\CoreProject\\Exam\\MyExam.IServices\\MyExam.IServices.csproj",
       "projectName": "MyExam.IServices",
-      "projectPath": "D:\\治有项目\\开发项目\\Exam\\MyExam.IServices\\MyExam.IServices.csproj",
-      "packagesPath": "C:\\Users\\you\\.nuget\\packages\\",
-      "outputPath": "D:\\治有项目\\开发项目\\Exam\\MyExam.IServices\\obj\\",
+      "projectPath": "D:\\MyProject\\CoreProject\\Exam\\MyExam.IServices\\MyExam.IServices.csproj",
+      "packagesPath": "C:\\Users\\czy\\.nuget\\packages\\",
+      "outputPath": "D:\\MyProject\\CoreProject\\Exam\\MyExam.IServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\you\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\czy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -704,13 +704,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://nuget.cnblogs.com/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\治有项目\\开发项目\\Exam\\MyExam.DTO\\MyExam.DTO.csproj": {
-              "projectPath": "D:\\治有项目\\开发项目\\Exam\\MyExam.DTO\\MyExam.DTO.csproj"
+            "D:\\MyProject\\CoreProject\\Exam\\MyExam.DTO\\MyExam.DTO.csproj": {
+              "projectPath": "D:\\MyProject\\CoreProject\\Exam\\MyExam.DTO\\MyExam.DTO.csproj"
             }
           }
         }

@@ -77,6 +77,10 @@ namespace MyExam.Services
             {
                 var bs = new BaseService<AdminUserEntity>(ctx);
                 var data = bs.GetAll();
+                if (data==null)
+                {
+                    return null;
+                }
                 return data.Select(e => ToDTO(e)).ToArray();
             }
         }

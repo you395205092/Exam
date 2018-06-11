@@ -49,8 +49,44 @@ namespace AdminWebApi.Controllers.v1
             
             return ApiResult(message: data, httpStatusCode: (int)HttpStatusCode.Forbidden);
         }
+        /// <summary>
+        /// 账号添加
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [AcceptVerbs(HttpMethodType.Post, Route = "v1/User/" + nameof(Add))]
+        public IActionResult Add([FromForm]LoginModel model)
+        {
+            try
+            {
+                _adminUserService.AddUser(model.UserName, model.Password);
+            }
+            catch (Exception ex)
+            {
 
+                return ApiResult(message: "添加失败！"+ex.ToString(), httpStatusCode: (int)HttpStatusCode.InternalServerError);
+            }
+            
+            return ApiResult(message:"添加成功！",httpStatusCode:(int)HttpStatusCode.OK);
+        }
 
+        public IActionResult Edit([FromForm]EditModel model)
+        {
+            bool b= _adminUserService.Edit(model.Id, model.Password);
+            if (b)
+            {
+                return ApiResult(message: "添加成功！", httpStatusCode: (int)HttpStatusCode.OK);
+            }
+            else
+            {
+                return ApiResult(message: "添加失败！", httpStatusCode: (int)HttpStatusCode.InternalServerError);
+            }
+        }
+        public IActionResult UserList()
+        {
+            var data= _adminUserService.GetAll();
+            return ApiResult(data);
+        }
 
         [AcceptVerbs(HttpMethodType.Post, Route = "v1/User/" + nameof(Login))]
         #region 登录验证
