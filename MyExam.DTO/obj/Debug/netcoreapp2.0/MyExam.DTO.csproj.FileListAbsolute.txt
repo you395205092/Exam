@@ -23,3 +23,11 @@ D:\治有项目\开发项目\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.
 D:\治有项目\开发项目\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.AssemblyInfo.cs
 D:\治有项目\开发项目\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.dll
 D:\治有项目\开发项目\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.pdb
+D:\MyProject\CoreProject\Exam\MyExam.DTO\bin\Debug\netcoreapp2.0\MyExam.DTO.deps.json
+D:\MyProject\CoreProject\Exam\MyExam.DTO\bin\Debug\netcoreapp2.0\MyExam.DTO.dll
+D:\MyProject\CoreProject\Exam\MyExam.DTO\bin\Debug\netcoreapp2.0\MyExam.DTO.pdb
+D:\MyProject\CoreProject\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.csproj.CoreCompileInputs.cache
+D:\MyProject\CoreProject\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.AssemblyInfoInputs.cache
+D:\MyProject\CoreProject\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.AssemblyInfo.cs
+D:\MyProject\CoreProject\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.dll
+D:\MyProject\CoreProject\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.pdb

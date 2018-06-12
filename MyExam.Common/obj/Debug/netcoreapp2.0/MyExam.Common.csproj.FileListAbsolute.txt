@@ -23,3 +23,11 @@ D:\治有项目\开发项目\Exam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.C
 D:\治有项目\开发项目\Exam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.dll
 D:\治有项目\开发项目\Exam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.pdb
 D:\治有项目\开发项目\Exam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.csprojAssemblyReference.cache
+D:\MyProject\CoreProject\Exam\MyExam.Common\bin\Debug\netcoreapp2.0\MyExam.Common.deps.json
+D:\MyProject\CoreProject\Exam\MyExam.Common\bin\Debug\netcoreapp2.0\MyExam.Common.dll
+D:\MyProject\CoreProject\Exam\MyExam.Common\bin\Debug\netcoreapp2.0\MyExam.Common.pdb
+D:\MyProject\CoreProject\Exam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.csproj.CoreCompileInputs.cache
+D:\MyProject\CoreProject\Exam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.AssemblyInfoInputs.cache
+D:\MyProject\CoreProject\Exam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.AssemblyInfo.cs
+D:\MyProject\CoreProject\Exam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.dll
+D:\MyProject\CoreProject\Exam\MyExam.Common\obj\Debug\netcoreapp2.0\MyExam.Common.pdb

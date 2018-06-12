@@ -33,7 +33,7 @@ namespace AdminWebApi.Controllers.v1
        // [CheckPermissions("AdminUser.List,AdminUser.Edit")]
         public IActionResult you()
         {
-            _adminUserService.AddUser("admin", "123456");
+            _adminUserService.Add("admin", "123456");
             return ApiResult(message: "用户名或密码错误，请重新登录！", httpStatusCode: (int)HttpStatusCode.Forbidden);
         }
 
@@ -59,7 +59,7 @@ namespace AdminWebApi.Controllers.v1
         {
             try
             {
-                _adminUserService.AddUser(model.UserName, model.Password);
+                _adminUserService.Add(model.UserName, model.Password);
             }
             catch (Exception ex)
             {

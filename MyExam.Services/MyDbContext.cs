@@ -13,6 +13,8 @@ namespace MyExam.Services
     {
 
         public DbSet<AdminUserEntity> AdminUsers { get; set; }
+        public DbSet<SubjectEntity> Subjects { get; set; }
+        public DbSet<StudentEntity> Students { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

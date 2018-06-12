@@ -8,7 +8,7 @@ namespace MyExam.IServices
 {
     public interface IAdminUserService:IServiceTag
     {
-        void AddUser(string userName, string password);
+        void Add(string userName, string password);
         bool Edit(long id, string password);
         bool CheckLogin(string userName, string password);
         bool CheckName(string userName);

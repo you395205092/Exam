@@ -14,7 +14,7 @@ namespace MyExam.Services
     public class AdminUserService :IAdminUserService
     {
 
-        public void AddUser(string userName, string password)
+        public void Add(string userName, string password)
         {
             using (MyDbContext ctx = new MyDbContext())
             {
