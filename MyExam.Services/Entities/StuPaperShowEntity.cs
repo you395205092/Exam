@@ -8,6 +8,7 @@ namespace MyExam.Services.Entities
     {
         public virtual PaperExamEntity Papers { get; set; }
         public long PaperId { get; set; }
+        public long SubjectId { get; set; }
         public long StuId { get; set; }
         public string Answer { get; set; }
         public int Score { get; set; }

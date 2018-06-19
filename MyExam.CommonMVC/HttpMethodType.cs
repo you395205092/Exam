@@ -16,5 +16,6 @@ namespace MyExam.CommonMVC
         public const string Put = "PUT";
 
         public const string Delete = "DELETE";
+        public const string OPTIONS = "OPTIONS";
     }
 }

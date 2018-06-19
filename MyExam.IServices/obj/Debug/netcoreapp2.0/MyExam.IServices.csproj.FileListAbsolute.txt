@@ -56,3 +56,15 @@ D:\治有项目\开发项目\Exam\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\
 D:\治有项目\开发项目\Exam\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\MyExam.IServices.csproj.CopyComplete
 D:\治有项目\开发项目\Exam\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\MyExam.IServices.dll
 D:\治有项目\开发项目\Exam\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\MyExam.IServices.pdb
+F:\project\Exam\MyExam.IServices\bin\Debug\netcoreapp2.0\MyExam.IServices.deps.json
+F:\project\Exam\MyExam.IServices\bin\Debug\netcoreapp2.0\MyExam.IServices.dll
+F:\project\Exam\MyExam.IServices\bin\Debug\netcoreapp2.0\MyExam.IServices.pdb
+F:\project\Exam\MyExam.IServices\bin\Debug\netcoreapp2.0\MyExam.DTO.dll
+F:\project\Exam\MyExam.IServices\bin\Debug\netcoreapp2.0\MyExam.DTO.pdb
+F:\project\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\MyExam.IServices.csprojAssemblyReference.cache
+F:\project\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\MyExam.IServices.csproj.CoreCompileInputs.cache
+F:\project\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\MyExam.IServices.AssemblyInfoInputs.cache
+F:\project\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\MyExam.IServices.AssemblyInfo.cs
+F:\project\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\MyExam.IServices.csproj.CopyComplete
+F:\project\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\MyExam.IServices.dll
+F:\project\Exam\MyExam.IServices\obj\Debug\netcoreapp2.0\MyExam.IServices.pdb

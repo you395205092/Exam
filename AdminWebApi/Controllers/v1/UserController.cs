@@ -33,7 +33,7 @@ namespace AdminWebApi.Controllers.v1
        // [CheckPermissions("AdminUser.List,AdminUser.Edit")]
         public IActionResult you()
         {
-            _adminUserService.Add("admin", "123456");
+            //_adminUserService.Add("admin", "123456");
             return ApiResult(message: "用户名或密码错误，请重新登录！", httpStatusCode: (int)HttpStatusCode.Forbidden);
         }
 
@@ -69,7 +69,7 @@ namespace AdminWebApi.Controllers.v1
             
             return ApiResult(message:"添加成功！",httpStatusCode:(int)HttpStatusCode.OK);
         }
-
+        [AcceptVerbs(HttpMethodType.Post, Route = "v1/User/" + nameof(Edit))]
         public IActionResult Edit([FromForm]EditModel model)
         {
             bool b= _adminUserService.Edit(model.Id, model.Password);
@@ -82,15 +82,16 @@ namespace AdminWebApi.Controllers.v1
                 return ApiResult(message: "添加失败！", httpStatusCode: (int)HttpStatusCode.InternalServerError);
             }
         }
+        [AcceptVerbs(HttpMethodType.Get, Route = "v1/User/" + nameof(UserList))]
         public IActionResult UserList()
         {
             var data= _adminUserService.GetAll();
             return ApiResult(data);
         }
 
-        [AcceptVerbs(HttpMethodType.Post, Route = "v1/User/" + nameof(Login))]
+        [AcceptVerbs(HttpMethodType.Get, Route = "v1/User/" + nameof(Login))]
         #region 登录验证
-        public IActionResult Login([FromForm]LoginModel model)
+        public IActionResult Login([FromForm]LoginModel model)  
         {
             AdminUserDTO adminUser = _adminUserService.GetByUserName(model.UserName);
             //判断数据是否为null

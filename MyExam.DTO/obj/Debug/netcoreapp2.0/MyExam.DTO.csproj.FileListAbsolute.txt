@@ -39,3 +39,11 @@ D:\治有项目\开发项目\Exam\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam
 D:\治有项目\开发项目\Exam\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.AssemblyInfo.cs
 D:\治有项目\开发项目\Exam\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.dll
 D:\治有项目\开发项目\Exam\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.pdb
+F:\project\Exam\MyExam.DTO\bin\Debug\netcoreapp2.0\MyExam.DTO.deps.json
+F:\project\Exam\MyExam.DTO\bin\Debug\netcoreapp2.0\MyExam.DTO.dll
+F:\project\Exam\MyExam.DTO\bin\Debug\netcoreapp2.0\MyExam.DTO.pdb
+F:\project\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.csproj.CoreCompileInputs.cache
+F:\project\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.AssemblyInfoInputs.cache
+F:\project\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.AssemblyInfo.cs
+F:\project\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.dll
+F:\project\Exam\MyExam.DTO\obj\Debug\netcoreapp2.0\MyExam.DTO.pdb

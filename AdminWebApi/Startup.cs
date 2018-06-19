@@ -67,14 +67,14 @@ namespace AdminWebApi
                 app.UseDeveloperExceptionPage();
             }
             app.UseMvc();
-            //app.UseMvc(routes =>
+            //app.usemvc(routes =>
             //{
             //    //扩展路由
 
-            //    routes.MapRoute(
+            //    routes.maproute(
             //        name: "default",
             //        template: "api/v1/{controller}/{action}/{id?}",
-            //        defaults: new { controller = "User", action = "you" });
+            //        defaults: new { controller = "user", action = "you" });
             //});
             //session b必须
             app.UseSession();
